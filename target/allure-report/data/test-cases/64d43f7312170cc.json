@@ -1,0 +1,57 @@
+{
+  "uid" : "64d43f7312170cc",
+  "name" : "creatingOrderColorGreyShouldReturnCode201",
+  "historyId" : "creationOrderTest:creationOrderTest#creatingOrderColorGreyShouldReturnCode201",
+  "time" : {
+    "duration" : 2455
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "27d831f5e2296414",
+      "name" : "System out",
+      "source" : "27d831f5e2296414.txt",
+      "type" : "text/plain",
+      "size" : 286
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "creationOrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "creationOrderTest"
+  }, {
+    "name" : "package",
+    "value" : "creationOrderTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64d43f7312170cc.json",
+  "parameterValues" : [ ]
+}

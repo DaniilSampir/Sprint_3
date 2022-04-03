@@ -1,0 +1,57 @@
+{
+  "uid" : "28f30c98c0af1c10",
+  "name" : "creatingCourierWithoutRequiredFieldCreationErrorShouldReturnCode400",
+  "historyId" : "creationCourierTest:creationCourierTest#creatingCourierWithoutRequiredFieldCreationErrorShouldReturnCode400",
+  "time" : {
+    "duration" : 1397
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b820cb695be593a",
+      "name" : "System out",
+      "source" : "8b820cb695be593a.txt",
+      "type" : "text/plain",
+      "size" : 290
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "creationCourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "creationCourierTest"
+  }, {
+    "name" : "package",
+    "value" : "creationCourierTest"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28f30c98c0af1c10.json",
+  "parameterValues" : [ ]
+}
