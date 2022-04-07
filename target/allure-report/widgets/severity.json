@@ -1,0 +1,153 @@
+[ {
+  "uid" : "52797a7915a88676",
+  "name" : "creatingOrderNoColorShouldReturnCode201",
+  "time" : {
+    "duration" : 608
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b75a134dcc3f7fb1",
+  "name" : "creatingDoubleCourierRequestShouldReturnCorrectResponseErrorText",
+  "time" : {
+    "duration" : 1479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e0b701fc4e4e605",
+  "name" : "creatingOrderResponseShouldHaveTrack",
+  "time" : {
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32b8ae184092b93e",
+  "name" : "loginCourierBadRequestShouldReturnErrorCode",
+  "time" : {
+    "duration" : 1385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b385a2d7c8869c37",
+  "name" : "creatingCourierWithoutRequiredFieldCreationErrorShouldReturnCode400",
+  "time" : {
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9c5415d60a4c971",
+  "name" : "creatingOrderColorGreyAndBlackShouldReturnCode201",
+  "time" : {
+    "duration" : 364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70a896f70cc02a86",
+  "name" : "creatingCourierRequestShouldReturnCorrectErrorText",
+  "time" : {
+    "duration" : 349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c89e0c07af09552d",
+  "name" : "loginCourierShouldAuthorization",
+  "time" : {
+    "duration" : 1428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edd5ea6e17b211d3",
+  "name" : "creatingCourierShouldCreatedReturnTrue",
+  "time" : {
+    "duration" : 1050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a625e211e9a7553a",
+  "name" : "creatingOrderColorGreyShouldReturnCode201",
+  "time" : {
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bc1a29d6c1dc883",
+  "name" : "loginCourierShouldAuthorizationShouldReturnID",
+  "time" : {
+    "duration" : 1999
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d23103c64f39c75b",
+  "name" : "creatingOrderColorBlackShouldReturnCode201",
+  "time" : {
+    "duration" : 405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbf9fa84e69342f3",
+  "name" : "creatingCourierRequestShouldReturnsСode201",
+  "time" : {
+    "duration" : 1139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ee9cab0e42c3922",
+  "name" : "creatingCourierRequestShouldReturnCorrectText",
+  "time" : {
+    "duration" : 1134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9c70811b8e053f2",
+  "name" : "creatingTwoIdenticalCouriersCannotCreatedShouldReturnCode409",
+  "time" : {
+    "duration" : 1430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3150c8ad8dccff95",
+  "name" : "loginCourierBadRequestShouldReturnErrorMessage",
+  "time" : {
+    "duration" : 1539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3f72d8906f5c660",
+  "name" : "loginCourierForAuthorizationNeedAllFieldsReturnErrorCode",
+  "time" : {
+    "duration" : 1407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6531234c6294bfed",
+  "name" : "getOrderListShouldNotNull",
+  "time" : {
+    "duration" : 6856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0c0ba71ff2e0208",
+  "name" : "loginCourierForAuthorizationNeedAllFieldsReturnErrorMessage",
+  "time" : {
+    "duration" : 1367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

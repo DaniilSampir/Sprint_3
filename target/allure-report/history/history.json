@@ -1,0 +1,325 @@
+{
+  "CreatingOrderTest:CreatingOrderTest#creatingOrderNoColorShouldReturnCode201" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52797a7915a88676",
+      "status" : "passed",
+      "time" : {
+        "duration" : 608
+      }
+    } ]
+  },
+  "CreatingOrderTest:CreatingOrderTest#creatingOrderColorGreyShouldReturnCode201" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a625e211e9a7553a",
+      "status" : "passed",
+      "time" : {
+        "duration" : 366
+      }
+    } ]
+  },
+  "CreatingOrderTest:CreatingOrderTest#creatingOrderResponseShouldHaveTrack" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e0b701fc4e4e605",
+      "status" : "passed",
+      "time" : {
+        "duration" : 549
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingCourierShouldCreatedReturnTrue" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edd5ea6e17b211d3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1050
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingCourierRequestShouldReturnCorrectText" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ee9cab0e42c3922",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1134
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingDoubleCourierRequestShouldReturnCorrectResponseErrorText" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b75a134dcc3f7fb1",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1479
+      }
+    } ]
+  },
+  "LoginCourierTest:LoginCourierTest#loginCourierShouldAuthorization" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c89e0c07af09552d",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1428
+      }
+    } ]
+  },
+  "LoginCourierTest:LoginCourierTest#loginCourierShouldAuthorizationShouldReturnID" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bc1a29d6c1dc883",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1999
+      }
+    } ]
+  },
+  "LoginCourierTest:LoginCourierTest#loginCourierBadRequestShouldReturnErrorCode" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32b8ae184092b93e",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1385
+      }
+    } ]
+  },
+  "CreatingOrderTest:CreatingOrderTest#creatingOrderColorBlackShouldReturnCode201" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d23103c64f39c75b",
+      "status" : "passed",
+      "time" : {
+        "duration" : 405
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingCourierWithoutRequiredFieldCreationErrorShouldReturnCode400" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b385a2d7c8869c37",
+      "status" : "passed",
+      "time" : {
+        "duration" : 319
+      }
+    } ]
+  },
+  "OrderListTest:OrderListTest#getOrderListShouldNotNull" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6531234c6294bfed",
+      "status" : "passed",
+      "time" : {
+        "duration" : 6856
+      }
+    } ]
+  },
+  "LoginCourierTest:LoginCourierTest#loginCourierBadRequestShouldReturnErrorMessage" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3150c8ad8dccff95",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1539
+      }
+    } ]
+  },
+  "LoginCourierTest:LoginCourierTest#loginCourierForAuthorizationNeedAllFieldsReturnErrorMessage" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0c0ba71ff2e0208",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1367
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingTwoIdenticalCouriersCannotCreatedShouldReturnCode409" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9c70811b8e053f2",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1430
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingCourierRequestShouldReturnsСode201" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbf9fa84e69342f3",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1139
+      }
+    } ]
+  },
+  "СreatingCourierTest:СreatingCourierTest#creatingCourierRequestShouldReturnCorrectErrorText" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70a896f70cc02a86",
+      "status" : "passed",
+      "time" : {
+        "duration" : 349
+      }
+    } ]
+  },
+  "LoginCourierTest:LoginCourierTest#loginCourierForAuthorizationNeedAllFieldsReturnErrorCode" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3f72d8906f5c660",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1407
+      }
+    } ]
+  },
+  "CreatingOrderTest:CreatingOrderTest#creatingOrderColorGreyAndBlackShouldReturnCode201" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9c5415d60a4c971",
+      "status" : "passed",
+      "time" : {
+        "duration" : 364
+      }
+    } ]
+  }
+}
