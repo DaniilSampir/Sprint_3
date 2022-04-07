@@ -1,10 +1,6 @@
 
-import com.google.gson.Gson;
-import com.google.gson.JsonElement;
-import io.restassured.response.Response;
-import org.apache.commons.lang3.RandomStringUtils;
-
-import java.util.ArrayList;
+import io.qameta.allure.Step;
+import io.restassured.response.ValidatableResponse;
 
 import static io.restassured.RestAssured.given;
 
@@ -12,7 +8,9 @@ public class CourierClient {
    private static final String contentType = "Content-type";
    private static final String json = "application/json";
    private static final String COURIER_PATH ="https://qa-scooter.praktikum-services.ru/api/v1/courier/";
+    private static final String COURIER_LOGIN_PATH = "https://qa-scooter.praktikum-services.ru/api/v1/courier/login/";
 
+    @Step("Creating courier")
     public boolean create(Courier courier){
          return given()
                 .header(contentType, json)
@@ -25,7 +23,7 @@ public class CourierClient {
                  .extract()
                  .path("ok");
     }
-
+    @Step("Authorization courier")
     public int login(String courierPartData){
         return  given()
                 .header(contentType, json)
@@ -38,7 +36,7 @@ public class CourierClient {
                 .extract()
                 .path("id");
     }
-
+    @Step("Deleting courier {0}")
     public boolean delete(int id){
         return given()
                 .header(contentType, json)
@@ -51,4 +49,24 @@ public class CourierClient {
                 .path("ok");
     }
 
+    @Step("Get create courier response")
+    public ValidatableResponse getCreateCourierResponse(Courier courier){
+        return given()
+                .header("Content-type", "application/json")
+                .body(courier)
+                .when()
+                .post(COURIER_PATH)
+                .then();
+    }
+
+    @Step("Get login courier response")
+    public ValidatableResponse getLoginCourierResponse(String login, String password){
+        CourierCredentials courierCredentials = new CourierCredentials();
+        return given()
+                .header("Content-type", "application/json")
+                .body(courierCredentials.credentials(login,password))
+                .when()
+                .post(COURIER_LOGIN_PATH)
+                .then();
+    }
 }

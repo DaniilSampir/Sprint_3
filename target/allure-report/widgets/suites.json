@@ -1,8 +1,8 @@
 {
   "total" : 4,
   "items" : [ {
-    "uid" : "522af394693574e8d00fd2238edab154",
-    "name" : "creationCourierTest",
+    "uid" : "95842ac4b715983c09856097c1727930",
+    "name" : "СreatingCourierTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 7
     }
   }, {
-    "uid" : "c355873578154e4e19ad32b937a5089c",
-    "name" : "loginCourierTest",
+    "uid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+    "name" : "LoginCourierTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 6
     }
   }, {
-    "uid" : "7f7089952edb3a6673d3747eaa97a8bd",
-    "name" : "creationOrderTest",
+    "uid" : "b576d5dceb1738d58e6d664c110599ce",
+    "name" : "CreatingOrderTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "ada2731c12348a7abfd75b07ce784b43",
-    "name" : "orderListTest",
+    "uid" : "37a7de9050deb1c33a4432b2c66eca84",
+    "name" : "OrderListTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

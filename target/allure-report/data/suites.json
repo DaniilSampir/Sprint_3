@@ -2,44 +2,14 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "creationCourierTest",
+    "name" : "СreatingCourierTest",
     "children" : [ {
-      "name" : "creatingCourierRequestShouldReturnCorrectText",
-      "uid" : "37594e21045c1991",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
-      "status" : "passed",
-      "time" : {
-        "duration" : 2245
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "creatingCourierShouldCreatedReturnTrue",
-      "uid" : "4f86e69af76acf3",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
-      "status" : "passed",
-      "time" : {
-        "duration" : 2619
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "creatingCourierRequestShouldReturnsСode201",
-      "uid" : "7d5438de3c1836d7",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
+      "uid" : "fbf9fa84e69342f3",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
       "status" : "passed",
       "time" : {
-        "duration" : 4466
+        "duration" : 1139
       },
       "flaky" : false,
       "newFailed" : false,
@@ -49,27 +19,12 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "creatingTwoIdenticalCouriersCannotCreatedShouldReturnCode409",
-      "uid" : "67ff2a8ff46148f5",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
+      "name" : "creatingCourierRequestShouldReturnCorrectText",
+      "uid" : "3ee9cab0e42c3922",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
       "status" : "passed",
       "time" : {
-        "duration" : 4406
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "creatingCourierWithoutRequiredFieldCreationErrorShouldReturnCode400",
-      "uid" : "28f30c98c0af1c10",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
-      "status" : "passed",
-      "time" : {
-        "duration" : 1397
+        "duration" : 1134
       },
       "flaky" : false,
       "newFailed" : false,
@@ -80,11 +35,56 @@
       "parameters" : [ ]
     }, {
       "name" : "creatingCourierRequestShouldReturnCorrectErrorText",
-      "uid" : "e2608c57a17b0e8e",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
+      "uid" : "70a896f70cc02a86",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
       "status" : "passed",
       "time" : {
-        "duration" : 509
+        "duration" : 349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "creatingTwoIdenticalCouriersCannotCreatedShouldReturnCode409",
+      "uid" : "e9c70811b8e053f2",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "creatingCourierShouldCreatedReturnTrue",
+      "uid" : "edd5ea6e17b211d3",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1050
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "creatingCourierWithoutRequiredFieldCreationErrorShouldReturnCode400",
+      "uid" : "b385a2d7c8869c37",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
+      "status" : "passed",
+      "time" : {
+        "duration" : 319
       },
       "flaky" : false,
       "newFailed" : false,
@@ -95,11 +95,11 @@
       "parameters" : [ ]
     }, {
       "name" : "creatingDoubleCourierRequestShouldReturnCorrectResponseErrorText",
-      "uid" : "723223d64791a631",
-      "parentUid" : "522af394693574e8d00fd2238edab154",
+      "uid" : "b75a134dcc3f7fb1",
+      "parentUid" : "95842ac4b715983c09856097c1727930",
       "status" : "passed",
       "time" : {
-        "duration" : 4675
+        "duration" : 1479
       },
       "flaky" : false,
       "newFailed" : false,
@@ -109,46 +109,16 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "522af394693574e8d00fd2238edab154"
+    "uid" : "95842ac4b715983c09856097c1727930"
   }, {
-    "name" : "loginCourierTest",
+    "name" : "LoginCourierTest",
     "children" : [ {
-      "name" : "loginCourierBadRequestShouldReturnErrorMessage",
-      "uid" : "35974a17264a2955",
-      "parentUid" : "c355873578154e4e19ad32b937a5089c",
+      "name" : "loginCourierShouldAuthorizationShouldReturnID",
+      "uid" : "8bc1a29d6c1dc883",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
       "status" : "passed",
       "time" : {
-        "duration" : 397
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "loginCourierShouldAuthorization",
-      "uid" : "a46597b1cd4e6d5f",
-      "parentUid" : "c355873578154e4e19ad32b937a5089c",
-      "status" : "passed",
-      "time" : {
-        "duration" : 3191
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "loginCourierBadRequestShouldReturnErrorCode",
-      "uid" : "9b9a4d5915644ef2",
-      "parentUid" : "c355873578154e4e19ad32b937a5089c",
-      "status" : "passed",
-      "time" : {
-        "duration" : 515
+        "duration" : 1999
       },
       "flaky" : false,
       "newFailed" : false,
@@ -159,11 +129,26 @@
       "parameters" : [ ]
     }, {
       "name" : "loginCourierForAuthorizationNeedAllFieldsReturnErrorCode",
-      "uid" : "56b3d463e653a247",
-      "parentUid" : "c355873578154e4e19ad32b937a5089c",
+      "uid" : "b3f72d8906f5c660",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
       "status" : "passed",
       "time" : {
-        "duration" : 5540
+        "duration" : 1407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginCourierShouldAuthorization",
+      "uid" : "c89e0c07af09552d",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1428
       },
       "flaky" : false,
       "newFailed" : false,
@@ -174,11 +159,11 @@
       "parameters" : [ ]
     }, {
       "name" : "loginCourierForAuthorizationNeedAllFieldsReturnErrorMessage",
-      "uid" : "fec357dcf0c9b883",
-      "parentUid" : "c355873578154e4e19ad32b937a5089c",
+      "uid" : "c0c0ba71ff2e0208",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
       "status" : "passed",
       "time" : {
-        "duration" : 3038
+        "duration" : 1367
       },
       "flaky" : false,
       "newFailed" : false,
@@ -188,12 +173,27 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "loginCourierShouldAuthorizationShouldReturnID",
-      "uid" : "f51028a83ee7b00e",
-      "parentUid" : "c355873578154e4e19ad32b937a5089c",
+      "name" : "loginCourierBadRequestShouldReturnErrorCode",
+      "uid" : "32b8ae184092b93e",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
       "status" : "passed",
       "time" : {
-        "duration" : 7728
+        "duration" : 1385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginCourierBadRequestShouldReturnErrorMessage",
+      "uid" : "3150c8ad8dccff95",
+      "parentUid" : "add15fd69964ca7a4cdcaf1c76e70e12",
+      "status" : "passed",
+      "time" : {
+        "duration" : 1539
       },
       "flaky" : false,
       "newFailed" : false,
@@ -203,80 +203,16 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "c355873578154e4e19ad32b937a5089c"
+    "uid" : "add15fd69964ca7a4cdcaf1c76e70e12"
   }, {
-    "name" : "orderListTest",
-    "children" : [ {
-      "name" : "getOrderListShouldNotNull",
-      "uid" : "c51a7b5682c35e09",
-      "parentUid" : "ada2731c12348a7abfd75b07ce784b43",
-      "status" : "passed",
-      "time" : {
-        "duration" : 5059
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "ada2731c12348a7abfd75b07ce784b43"
-  }, {
-    "name" : "creationOrderTest",
+    "name" : "CreatingOrderTest",
     "children" : [ {
       "name" : "creatingOrderColorGreyAndBlackShouldReturnCode201",
-      "uid" : "24c505afc258ad46",
-      "parentUid" : "7f7089952edb3a6673d3747eaa97a8bd",
+      "uid" : "b9c5415d60a4c971",
+      "parentUid" : "b576d5dceb1738d58e6d664c110599ce",
       "status" : "passed",
       "time" : {
-        "duration" : 6090
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "creatingOrderNoColorShouldReturnCode201",
-      "uid" : "56b6fd83362ab9d9",
-      "parentUid" : "7f7089952edb3a6673d3747eaa97a8bd",
-      "status" : "passed",
-      "time" : {
-        "duration" : 879
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "creatingOrderColorGreyShouldReturnCode201",
-      "uid" : "64d43f7312170cc",
-      "parentUid" : "7f7089952edb3a6673d3747eaa97a8bd",
-      "status" : "passed",
-      "time" : {
-        "duration" : 2455
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "creatingOrderColorBlackShouldReturnCode201",
-      "uid" : "f2ff918d5bbf53d",
-      "parentUid" : "7f7089952edb3a6673d3747eaa97a8bd",
-      "status" : "passed",
-      "time" : {
-        "duration" : 1500
+        "duration" : 364
       },
       "flaky" : false,
       "newFailed" : false,
@@ -287,11 +223,56 @@
       "parameters" : [ ]
     }, {
       "name" : "creatingOrderResponseShouldHaveTrack",
-      "uid" : "f0b17ee8b3f86e86",
-      "parentUid" : "7f7089952edb3a6673d3747eaa97a8bd",
+      "uid" : "3e0b701fc4e4e605",
+      "parentUid" : "b576d5dceb1738d58e6d664c110599ce",
       "status" : "passed",
       "time" : {
-        "duration" : 3847
+        "duration" : 549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "creatingOrderColorGreyShouldReturnCode201",
+      "uid" : "a625e211e9a7553a",
+      "parentUid" : "b576d5dceb1738d58e6d664c110599ce",
+      "status" : "passed",
+      "time" : {
+        "duration" : 366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "creatingOrderNoColorShouldReturnCode201",
+      "uid" : "52797a7915a88676",
+      "parentUid" : "b576d5dceb1738d58e6d664c110599ce",
+      "status" : "passed",
+      "time" : {
+        "duration" : 608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "creatingOrderColorBlackShouldReturnCode201",
+      "uid" : "d23103c64f39c75b",
+      "parentUid" : "b576d5dceb1738d58e6d664c110599ce",
+      "status" : "passed",
+      "time" : {
+        "duration" : 405
       },
       "flaky" : false,
       "newFailed" : false,
@@ -301,6 +282,25 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "7f7089952edb3a6673d3747eaa97a8bd"
+    "uid" : "b576d5dceb1738d58e6d664c110599ce"
+  }, {
+    "name" : "OrderListTest",
+    "children" : [ {
+      "name" : "getOrderListShouldNotNull",
+      "uid" : "6531234c6294bfed",
+      "parentUid" : "37a7de9050deb1c33a4432b2c66eca84",
+      "status" : "passed",
+      "time" : {
+        "duration" : 6856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "37a7de9050deb1c33a4432b2c66eca84"
   } ]
 }
